@@ -1,0 +1,28 @@
+.contacts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 8px 9px;
+    border-radius: 100px;
+    background-color: #FCFCFC;
+    &__button{
+        background: #D5E2FC;
+        padding: 8px 12px;
+        border-radius: 50px;
+        gap: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        &:hover{
+            cursor: pointer;
+        }
+        &__icon{
+            width: 13px;
+            height: 13px;
+        }
+        &__text{
+            font-size: 16px;
+        }
+    }
+}
