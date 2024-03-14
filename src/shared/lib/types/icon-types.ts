@@ -12,5 +12,7 @@ export type TIcons =
     | "flagFr"
     | "mail"
     | "phone"
-    | "logo";
+    | "logo"
+    | "file"
+    | "worker";
 

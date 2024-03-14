@@ -1,0 +1,28 @@
+.logo {
+    width: 586px;
+    padding: 0px 32px;
+    border-radius: 100px;
+    background-color: #FCFCFC;
+    z-index: 10;
+    &__ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 20px;
+        &__item {
+            &__a{
+                color: rgba(0, 0, 0, 0.5);
+                font-weight: bold;
+                &__blue{
+                    color:#234EE4;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    &__icon{
+        width: 40px;
+        height: 44px;
+    }
+}

@@ -1,0 +1,30 @@
+.block {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    &__h1 {
+        color: #FCFCFC;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+        font-size: 48px;
+    }
+    &__button {
+        padding: 10px 32px;
+        width: 100%;
+        background: rgba(252, 252, 252, 0.2);
+        color: #FCFCFC;
+        cursor: pointer;
+        margin-top: 40px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0em;
+        border-radius: 50px;
+        &:hover {
+            background: rgba(252, 252, 252, 0.5);
+        }
+    }
+}

@@ -1,0 +1,84 @@
+.block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &__folder {
+        
+        max-width: 596px;
+        &__info{
+            margin-top: -30px;
+            border-radius: 32px;
+            padding: 30px 20px;
+            background-color: #FCFCFC;
+            color:#101010;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 20px;
+            &__text{
+                &__h1 {
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 33px;
+                    text-align: left;
+                }
+                &__p {
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    text-align: left;
+                }
+            }
+            &__button{
+                cursor: pointer;
+                background-color: #D5E2FC;
+                padding: 5px;
+                border-radius: 50%;
+            }
+            &__tag__first{
+                padding: 10px;
+                background-color:  #F47616;
+                color: #FCFCFC;
+                border-radius: 50px;
+                font-weight: 700;
+                line-height: 15px;
+                letter-spacing: 0em;
+                text-align: left;
+                font-size: 14px;
+            }
+            &__tag__second{
+                padding: 10px;
+                background-color: #02CC89;
+                color: #FCFCFC;
+                border-radius: 50px;
+                font-weight: 700;
+                line-height: 15px;
+                letter-spacing: 0em;
+                text-align: left;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.bookmark__first{
+    width: 596px;
+    height: 144px;
+    border-radius: 32px 32px 0px 0px;
+    background: linear-gradient(225.39deg, #F47616 0%, #D03916 100%);
+}
+.bookmark__second{
+    width: 596px;
+    height: 144px;
+    border-radius: 32px 32px 0px 0px;
+    background: linear-gradient(225.39deg, #5CE1A9 0%, #00CE88 51.04%, #008973 100%);
+}
+
+.icon {
+    color:  #145CEF;
+    width: 23px;
+    height: auto;
+}

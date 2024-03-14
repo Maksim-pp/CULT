@@ -1,0 +1,21 @@
+.ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 420px;
+    gap: 24px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: rgba(252, 252, 252, 0.12);
+    padding: 10px 32px;
+    border-radius: 50px;
+    &__item {
+        color: rgba(252, 252, 252, 0.5);
+
+        cursor: pointer;
+        &:hover {
+            color: rgba(252, 252, 252);
+        }
+    }
+}
