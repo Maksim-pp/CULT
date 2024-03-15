@@ -1,0 +1,13 @@
+.block {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 300px;
+    &__h1 {
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+        font-size: 48px;
+    }
+}

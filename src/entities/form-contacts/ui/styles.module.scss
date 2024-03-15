@@ -1,0 +1,140 @@
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    color:#FCFCFC;
+    max-width: 500px;
+    min-width: 350px;
+    height: 560px;
+    &__h1{
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 64px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    &__p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    &__button{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+        &__telegram{
+            width: 240px;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: left;
+
+            color: #25A4E2;
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            padding: 10px 60px 10px 60px;
+            border-radius: 50px;
+            opacity: 0.8;
+            &:hover{
+                opacity: 1;
+            }
+            &__icon{
+                width: 14px;
+                height: 14px;
+            }
+        }
+        &__whatsapp{
+            width: 240px;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: left;
+
+            color:   #28B43E;
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            padding: 10px 60px 10px 60px;
+            border-radius: 50px;
+            opacity: 0.8;
+            &:hover{
+                opacity: 1;
+            }
+            &__icon{
+                width: 14px;
+                height: 14px;
+            }
+        }
+        &__vk{
+            width: 240px;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: left;
+
+            color:  #4C75A3;
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            padding: 10px 60px 10px 60px;
+            border-radius: 50px;
+            opacity: 0.8;
+            &:hover{
+                opacity: 1;
+            }
+            &__icon{
+                width: 14px;
+                height: 14px;
+            }
+        }
+        &__mail{
+            width: 240px;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: left;
+
+            color: #145CEF;
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            padding: 10px 60px 10px 60px;
+            border-radius: 50px;
+            opacity: 0.8;
+            &:hover{
+                opacity: 1;
+            }
+            &__icon{
+                width: 14px;
+                height: 14px;
+            }
+        }
+    }
+}

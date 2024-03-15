@@ -1,0 +1,94 @@
+.block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    color:#FCFCFC;
+    max-width: 500px;
+    min-width: 350px;
+    height: 400px;
+    background-color: rgba(252, 252, 252, 0.2);
+    border-radius: 40px;
+    padding: 48px 56px;
+    &__h1 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        &__field__name{
+            &::placeholder{
+                color: #FCFCFC;
+            }
+            color: #FCFCFC;
+            background-color: rgba(252, 252, 252, 0.22);
+            padding: 16px 24px;
+            border-radius: 12px 12px 0px 0px;
+        }
+        &__field__phone{
+            &::placeholder{
+                color: #FCFCFC;
+            }
+            color: #FCFCFC;
+            padding: 16px 24px;
+            background-color: rgba(252, 252, 252, 0.22);
+        }
+        &__field__mail{
+            &::placeholder{
+                color: #FCFCFC;
+            }
+            color: #FCFCFC;
+            padding: 16px 24px;
+            background-color: rgba(252, 252, 252, 0.22);
+            border-radius:0px 0px 12px 12px;
+        }
+    }
+    &__send{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        &__label{
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: left;
+            &__span{
+                color: rgba(74, 214, 255, 1);
+            }
+        }
+        &__button{
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            padding: 10px 32px;
+            border-radius: 50px;
+            width: 100%;
+            color:  #145CEF;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: left;
+            &__icon{
+                width: 12px;
+                height: 12px;
+            }
+            opacity: 0.8;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+}

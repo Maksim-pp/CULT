@@ -1,0 +1,42 @@
+.swiper__button {
+    &__prev {
+        cursor: pointer;
+        padding: 10px;
+        background: #145CEF;
+        border-radius: 50%;
+        position: absolute;
+        left: 40px; 
+        top: 50%;
+        opacity: 0.5;
+        z-index: 11;
+        &:hover {
+            opacity: 1;
+        }
+        &__icon {
+
+        }
+    }
+    &__next {
+        cursor: pointer;
+        padding: 10px;
+        background: #145CEF;
+        border-radius: 50%;
+        position: absolute;
+        right: 40px; 
+        top: 50%; 
+        z-index: 11;
+        opacity: 0.5;
+        &:hover {
+            opacity: 1;
+        }
+        &__icon {
+
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .swiper__button{
+        display: none;
+    }
+}

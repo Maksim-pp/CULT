@@ -14,5 +14,15 @@ export type TIcons =
     | "phone"
     | "logo"
     | "file"
-    | "worker";
+    | "worker"
+    | "prev"
+    | "next"
+    | "telegram"
+    | "whatsapp"
+    | "vk"
+    |  "telegram-footer"
+    |  "dzen-footer"
+    |  "vk-footer"
+    |  "in-footer"
+    |  "hh-footer";
 

@@ -6,6 +6,9 @@ import { PageMedia } from 'src/pages/page-media'
 import { PageServicesFirst } from 'src/pages/page-services-first'
 import { PageServicesSecond } from 'src/pages/page-services-second'
 import { PageReviews } from 'src/pages/page-reviews'
+import { PageSliders } from 'src/pages/page-sliders'
+import { PageForm } from 'src/pages/page-form'
+import { Footer } from 'src/pages/footer'
 
 function App() {
 
@@ -18,6 +21,9 @@ function App() {
       <PageMedia />
       <PageBanner />
       <PageReviews />
+      <PageSliders />
+      <PageForm />
+      <Footer />
     </div>
   )
 }

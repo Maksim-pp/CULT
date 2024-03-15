@@ -1,0 +1,54 @@
+.slider {
+    margin-top: 100px;
+}
+.slide{
+    cursor: pointer;
+    &__img{
+        max-width: 385px;
+        border-radius: 32px;
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 150px;
+        margin-top: -30px;
+        background: #FCFCFC;
+        padding: 64px 32px 32px 32px;
+        border-radius: 0px 0px 32px 32px;
+        &__user{
+            &__name{
+                font-size: 22px;
+                font-weight: 700;
+                line-height: 26px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+            &__post{
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 20px;
+                letter-spacing: 0em;
+                text-align: left;
+                opacity: 0.6;
+            }
+        }
+        &__contact{
+            &__phone{
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 16px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+            &__mail{
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+                opacity: 0.6;
+            }
+        }
+    }
+}
